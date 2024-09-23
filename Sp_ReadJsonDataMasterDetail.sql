@@ -1,4 +1,4 @@
-ALTER PROCEDURE Sp_ReadJsonDataMasterDetail
+CREATE PROCEDURE Sp_ReadJsonDataMasterDetail
 	@JsonData NTEXT = '[
   {
     "CustomerID": 1,
